@@ -101,7 +101,7 @@ if (isset($config))
 	$env_config['site_index']          = '';
 	$env_config['base_url']            = $base_url . '/';
 	$env_config['site_url']            = $env_config['base_url'];
-	$env_config['cp_url']              = $env_config['base_url'] . 'admin.php';
+	$env_config['cp_url']              = $env_config['base_url'] . 'login.php';
 	$env_config['theme_folder_path']   = $base_path   . '/themes/';
 	$env_config['theme_folder_url']    = $base_url    . '/themes/';
 	$env_config['emoticon_path']       = $images_url  . '/smileys/';
@@ -150,7 +150,7 @@ if (isset($config))
 	 */
 	$env_config['save_tmpl_files']           = 'y';
 	// $env_config['save_tmpl_files']           = (ENV == 'prod') ? 'n' : 'y';
-	$env_config['tmpl_file_basepath']        = $base_path . '/../templates';
+	$env_config['tmpl_file_basepath']        = $base_path . '/../source/templates';
 	$env_config['hidden_template_indicator'] = '_'; 
 
 
